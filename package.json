@@ -1,0 +1,27 @@
+{
+  "name": "eeic_mf2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutanoma/eeic_mf2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutanoma/eeic_mf2018/issues"
+  },
+  "homepage": "https://github.com/yutanoma/eeic_mf2018#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.2.1"
+  }
+}
