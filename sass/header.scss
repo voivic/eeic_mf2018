@@ -1,0 +1,15 @@
+.header {
+	&-link {
+		width: 100px;
+		display: block;
+		&-img {
+			width: 100%;
+		}
+	}
+
+	&-top {
+		&-text {
+			margin: 10px;
+		}
+	}
+}

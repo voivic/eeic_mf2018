@@ -4,6 +4,7 @@ html(lang="ja")
 		meta(charset="utf-8")
 		meta(name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0")
 		link(rel="stylesheet" href="css/reset.css")
+		link(rel="stylesheet" href="css/header.css")
 		link(rel="stylesheet" href="css/common.css")
 		link(rel="stylesheet" href="css/jquery.bxslider.min.css")
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
@@ -17,9 +18,9 @@ html(lang="ja")
 				p.header-top-text EEIC 五月祭展示
 				p.header-top-text 近未来体験2018
 			.header-hamburger
-				span.hamburger-bar
-				span.hamburger-bar
-				span.hamburger-bar
+				span.header-hamburger-bar
+				span.header-hamburger-bar
+				span.header-hamburger-bar
 			nav.header-global-nav
 				ul.header-global-nav-list
 					li.header-global-nav-list-item.no-wrap
@@ -27,9 +28,10 @@ html(lang="ja")
 					li.header-global-nav-list-item.no-wrap
 						a.nav-content(href="#access") アクセス
 					li.header-global-nav-list-item.no-wrap
-						a.nav-content(href="#contents") リンク
+						a.nav-content(href="#links") リンク
 
 		main
 			block contents
 
-		footer
+		footer.footer
+			p.footer-copyright Copyright &copy; EEIC 五月祭展示「近未来体験2017」All rights reserved.
