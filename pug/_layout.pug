@@ -1,4 +1,35 @@
-html
+doctype html
+html(lang="ja")
 	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0")
+		link(rel="stylesheet" href="css/reset.css")
+		link(rel="stylesheet" href="css/common.css")
+		link(rel="stylesheet" href="css/jquery.bxslider.min.css")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+		block linkfiles
+
 	body
-		block contents
+		header.header
+			a.header-link(href="#top")
+				img.header-link-img(src="/img/black_bulb.png" alt="eeic")
+			.header-top
+				p.header-top-text EEIC 五月祭展示
+				p.header-top-text 近未来体験2018
+			.header-hamburger
+				span.hamburger-bar
+				span.hamburger-bar
+				span.hamburger-bar
+			nav.header-global-nav
+				ul.header-global-nav-list
+					li.header-global-nav-list-item.no-wrap
+						a.nav-content(href="#contents") 催し一覧
+					li.header-global-nav-list-item.no-wrap
+						a.nav-content(href="#access") アクセス
+					li.header-global-nav-list-item.no-wrap
+						a.nav-content(href="#contents") リンク
+
+		main
+			block contents
+
+		footer

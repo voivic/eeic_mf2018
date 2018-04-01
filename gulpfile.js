@@ -9,10 +9,10 @@ gulp.task('default', ['sass', 'browser-sync', 'pug', 'watch']);
 
 //sassとpugの監視をして変換処理させる
 gulp.task('watch', () => {
-	gulp.watch(['./sass/**'], () => {
+	gulp.watch(['sass/**'], () => {
 		gulp.start(['sass']);
 	});
-	gulp.watch(['./pug/**'], () => {
+	gulp.watch(['pug/**'], () => {
 		gulp.start(['pug']);
 	});
 });
@@ -26,8 +26,10 @@ gulp.task('browser-sync', () => {
 	});
 	//ファイルの監視
 	//以下のファイルが変わったらリロードする
-	gulp.watch("./js/**/*.js", ['reload']);
-	gulp.watch("./*.html", ['reload']);
+	gulp.watch("js/**/*.js", ['reload']);
+	gulp.watch("*.html", ['reload']);
+	gulp.watch("css/**", ['reload']);
+	gulp.watch("img/**", ['reload']);
 });
 
 //sassをcssに変換
