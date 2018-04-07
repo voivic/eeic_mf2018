@@ -1,9 +1,7 @@
 
 
-# サーバーの立ち上げ
-$ gulp sass
-$ gulp pug
+## サーバーの立ち上げ
 $ gulp
 
-# サーバーの終了
+## サーバーの終了
 Control+C

@@ -1,3 +1,7 @@
+@media screen and (max-width: 1080px) {
+  .header-link {
+    background-color: red; } }
+
 .header-link {
   width: 100px;
   display: block; }

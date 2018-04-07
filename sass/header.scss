@@ -1,4 +1,12 @@
+$tablet-width: 1080px;
+
 .header {
+	@media screen and (max-width: $tablet-width) {
+		&-link {
+			background-color: red;
+		}
+	}
+
 	&-link {
 		width: 100px;
 		display: block;
