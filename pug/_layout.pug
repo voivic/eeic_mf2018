@@ -8,30 +8,40 @@ html(lang="ja")
 		link(rel="stylesheet" href="css/common.css")
 		link(rel="stylesheet" href="css/jquery.bxslider.min.css")
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+		script.
+			$(function() {
+				$('#navToggle').click(function(){//headerに .openNav を付加・削除
+					$('header').toggleClass('openNav');
+				});
+			});
 		block linkfiles
+
+
 
 	body
 		header.header
-			a.header-link(href="#top")
-				img.header-link-img(src="/img/black_bulb.png" alt="eeic")
+			a.header-link(href="index.html#top")
+				img.header-link-img(src="/img/white_bulb.png" alt="eeic")
 			.header-top
-				p.header-top-text EEIC 五月祭展示
-				p.header-top-text 近未来体験2018
-			.header-hamburger
+				.header-top-text
+					p.header-top-text EEIC2018 近未来体験
+					div.header-top-stripe
+			.header-hamburger#navToggle
 				span.header-hamburger-bar
 				span.header-hamburger-bar
 				span.header-hamburger-bar
 			nav.header-global-nav
 				ul.header-global-nav-list
 					li.header-global-nav-list-item.no-wrap
-						a.nav-content(href="#contents") 催し一覧
+							a.nav-content(href="index.html#contents") イベント一覧
 					li.header-global-nav-list-item.no-wrap
-						a.nav-content(href="#access") アクセス
+							a.nav-content(href="index.html#links") リンク
 					li.header-global-nav-list-item.no-wrap
-						a.nav-content(href="#links") リンク
+							a.nav-content(href="index.html#access") アクセス
+		section.under-header#top
 
 		main
 			block contents
 
 		footer.footer
-			p.footer-copyright Copyright &copy; EEIC 五月祭展示「近未来体験2017」All rights reserved.
+			p.footer-copyright Copyright &copy; EEIC 五月祭展示「近未来体験2018」All rights reserved.

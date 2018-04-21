@@ -8,26 +8,36 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/jquery.bxslider.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+      	$('#navToggle').click(function(){//headerに .openNav を付加・削除
+      		$('header').toggleClass('openNav');
+      	});
+      });
+    </script>
   </head>
   <body>
-    <header class="header"><a class="header-link" href="#top"><img class="header-link-img" src="/img/black_bulb.png" alt="eeic"></a>
+    <header class="header"><a class="header-link" href="index.html#top"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a>
       <div class="header-top">
-        <p class="header-top-text">EEIC 五月祭展示</p>
-        <p class="header-top-text">近未来体験2018</p>
+        <div class="header-top-text">
+          <p class="header-top-text">EEIC2018 近未来体験</p>
+          <div class="header-top-stripe"></div>
+        </div>
       </div>
-      <div class="header-hamburger"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
+      <div class="header-hamburger" id="navToggle"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
       <nav class="header-global-nav">
         <ul class="header-global-nav-list">
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#contents">催し一覧</a></li>
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#access">アクセス</a></li>
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">イベント一覧</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#access">アクセス</a></li>
         </ul>
       </nav>
     </header>
+    <section class="under-header" id="top"></section>
     <main>
     </main>
     <footer class="footer">
-      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2017」All rights reserved.</p>
+      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2018」All rights reserved.</p>
     </footer>
   </body>
 </html>

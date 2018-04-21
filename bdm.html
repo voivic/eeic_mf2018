@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+      	$('#navToggle').click(function(){//headerに .openNav を付加・削除
+      		$('header').toggleClass('openNav');
+      	});
+      });
+    </script>
+    <link rel="stylesheet" href="css/bdm.css">
+  </head>
+  <body>
+    <header class="header"><a class="header-link" href="index.html#top"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a>
+      <div class="header-top">
+        <div class="header-top-text">
+          <p class="header-top-text">EEIC2018 近未来体験</p>
+          <div class="header-top-stripe"></div>
+        </div>
+      </div>
+      <div class="header-hamburger" id="navToggle"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
+      <nav class="header-global-nav">
+        <ul class="header-global-nav-list">
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">イベント一覧</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#access">アクセス</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="under-header" id="top"></section>
+    <main>
+      <section class="topCon"><img class="topCon-img" src="img/topCon.jpg" alt="top"></section>
+      <section class="section-bdm" id="BDM">
+        <h2 class="heading">学生製作物展示</h2>
+        <div class="bdm-heading-stripe"></div>
+        <p class="bdm-maintext">このブースでは現4年生が「電子情報機器学」の講義で<br class="mobile">製作したもののうちの一部が展示されています。<br>電気系の学生の柔軟な発想に<br class="mobile">ぜひ触れてみてください。</p>
+        <div class="bdm-wrapper">
+          <div class="bdm-box"><img class="bdm-img" src="img/BBEgg.jpg" alt="BB-Egg">
+            <p class="bdm-title">BB-Egg</p>
+            <div class="bdm-title-stripe"></div>
+            <p class="bdm-text">BB-EGGはスターウォーズ<br>フォースの覚醒に登場した<br>キャラクターのBB-8をもとにして<br>作ったロボットです。<br>BB-EGGは映画と同じように、<br>頭が固定のままで、回転して動けます。<br>スマホでもBB-EGGを操作できます。</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/Finterior.png" alt="Finterior">
+            <p class="bdm-title">Finterior</p>
+            <div class="bdm-title-stripe"></div>
+            <p class="bdm-text">金融を身近なものに！<br>FinanceとInteriorを組み合わせた新概念、<br>Finteriorの提唱！<br>今流行りのビットコイン、その価格チャートを<br>おしゃれなインテリアにしました！<br>これがあれば、部屋にいる時いつでも価格を<br>チェックできるので金融への意識向上間違いなし！</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/LEDLan.png" alt="IoTランタン">
+            <p class="bdm-title">IoTランタン</p>
+            <div class="bdm-title-stripe"></div>
+            <p class="bdm-text">IoTランタンという，IoTデバイスを作ってみました。<br>ランタン光のオンオフ，明るさ，色を自分の<br>スマートフォンで自由に操作することができます。<br>また，明るさや色をワンタッチで調節できる<br>プリセットも用意しました。<br>スライダーを動かし，<br>自分好みの明るさや色を見つけてみてください！</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/SUS.jpg" alt="スーパーアンブレラスタンド">
+            <p class="bdm-title">スーパーアンブレラスタンド</p>
+            <div class="bdm-title-stripe-long"></div>
+            <p class="bdm-text">スーパーアンブレラスタンドは、<br>Suicaで傘を管理できるようになる傘立てです。<br>自分の傘を他の人の傘と間違うことも、<br>傘を盗まれることもなくなります。<br>アプリとも連携していて、<br>自分の傘がどうなってるか一目でわかります。</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/Theremin.jpg" alt="テルミン">
+            <p class="bdm-title">テルミン</p>
+            <div class="bdm-title-stripe"></div>
+            <p class="bdm-text">世界で最初の電子楽器であるテルミンを<br>アナログ回路で自作しました。<br>本体に手を触れず、空間中の手の動きによって<br>演奏できる不思議な楽器です。<br>きれいな音を安定して出せるよう回路を工夫しました。<br>さらにエフェクターを2種類組み込んであり、<br>幅広い音色が楽しめます。</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/Hikarun.jpg" alt="ひかるん">
+            <p class="bdm-title">ひかるん</p>
+            <div class="bdm-title-stripe"></div>
+            <p class="bdm-text">光を使ったコミュニケーションができるランプです！<br>ランプを振ることで<br>光を変化させたり色を変えたりでき、<br>相手に今の気分を伝えることができます！</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/KKYS.jpg" alt="今日は会社休みまスイッチ">
+            <p class="bdm-title">今日は会社休みまスイッチ</p>
+            <div class="bdm-title-stripe-long"></div>
+            <p class="bdm-text">「今日は会社休みまスイッチ」はその名の通り、<br>押すと会社を休む宣言ができるスイッチです。<br>具体的には、Googleカレンダーの予定を参照して、<br>予定に記されているメールアドレスに<br>「今日は休みます」という内容のメールが送信できます。<br>布団から全く出ることなくボタンを押すだけで<br>気軽にお休み連絡ができます。</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/train.jpg" alt="鉄道模型自動運転">
+            <p class="bdm-title">鉄道模型自動運転</p>
+            <div class="bdm-title-stripe-mid"></div>
+            <p class="bdm-text">線路上を走る電車の現在位置を検出することで、<br>信号の色が変化し1本の線路上を２つの電車が同時に、<br>衝突しないように走ります。<br>途中で線路が切り替わって各停と急行の待ち合わせを行い、<br>駅に止まると発車メロディーが流れます。<br>本物さながらの動きをお楽しみください。</p>
+          </div>
+          <div class="bdm-box"><img class="bdm-img" src="img/Hansha.png" alt="反射神経を鍛える">
+            <p class="bdm-title">反射神経を鍛える</p>
+            <div class="bdm-title-stripe-mid"></div>
+            <p class="bdm-text">自分の反射神経を試してみてください。<br>ペンつかみゲームを自動化してひとりでプレイできるようにしました。<br>ペンつかみゲームは，落下するペンを掴むゲームで，<br>手軽に遊べて反射神経が鍛えられます。<br>原理はとても簡単で，電磁石のON/OFFを制御して<br>金属の棒を自動で落下させます。<br>これを掴むことができるか，試してみてください</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2018」All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+      	$('#navToggle').click(function(){//headerに .openNav を付加・削除
+      		$('header').toggleClass('openNav');
+      	});
+      });
+    </script>
+    <link rel="stylesheet" href="css/works.css">
+  </head>
+  <body>
+    <header class="header"><a class="header-link" href="index.html#top"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a>
+      <div class="header-top">
+        <div class="header-top-text">
+          <p class="header-top-text">EEIC2018 近未来体験</p>
+          <div class="header-top-stripe"></div>
+        </div>
+      </div>
+      <div class="header-hamburger" id="navToggle"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
+      <nav class="header-global-nav">
+        <ul class="header-global-nav-list">
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">イベント一覧</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#access">アクセス</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="under-header" id="top"></section>
+    <main>
+      <section class="topCon"><img class="topCon-img" src="img/topCon.jpg" alt="top"></section>
+      <section class="section-works" id="programming">
+        <h2 class="heading">プログラミング教室</h2>
+        <div class="programming-heading-stripe"></div><img class="programming-img" src="img/programming2.jpg" alt="programming">
+        <p class="programming-text">アイテムを駆使しながらキャラクターを<br class="mobile">縦横無尽に動かしてダンジョンを攻略しよう！！<br>君はどのレベルまでクリアできるかな？<br>ゲームで遊びながら<br class="mobile">楽しくプログラミングの基礎を勉強しよう！！<br>対象：中学生くらいまでのプログラミング初心者</p>
+      </section>
+      <section class="section-works" id="ework">
+        <h2 class="heading">電子工作教室</h2>
+        <div class="ework-heading-stripe"></div>
+        <div class="ework-wrapper">
+          <div class="ework-box">
+            <div class="ework-main"><img class="ework-img" src="img/ework1.jpeg" alt="電子工作教室1"></div>
+          </div>
+          <div class="ework-box">
+            <div class="ework-main"><img class="ework-img" src="img/ework2.jpeg" alt="電子工作教室2"></div>
+          </div>
+          <div class="ework-box">
+            <div class="ework-main"><img class="ework-img" src="img/ework3.jpeg" alt="電子工作教室3"></div>
+          </div>
+        </div>
+        <p class="ework-text">テキスト未定</p>
+      </section>
+      <section class="section-works" id="vr">
+        <h2 class="heading">VR教室</h2>
+        <div class="vr-heading-stripe"></div><img class="vr-img" src="img/vr3.png" alt="vr">
+        <p class="vr-text">VR体験では最新のVR機器を用いた<br class="mobile">没入感たっぷりで爽快な<br class="mobile">テニスゲームが体験できます！<br>マルチプレイによる白熱した<br class="mobile">対戦が楽しめるでしょう！<br>また、会場は非日常的な空間となっていて、<br class="mobile">ゲームの観戦もできるようになっているので、<br class="mobile">ぜひお立ち寄りください。</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2018」All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  line-height: 1.6;
+  min-height: 480px;
+  background-color: #222; }
+
+body p {
+  margin-top: 20px; }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.section-main {
+  font-size: 1.6rem;
+  padding: 50px 50px 50px 50px;
+  margin-top: 0; }
+
+.heading {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  display: block;
+  margin: 15px 0 15px;
+  padding-bottom: 0;
+  position: relative;
+  margin: auto; }
+  .heading-stripe {
+    margin: auto;
+    margin-top: 5px;
+    height: 8px;
+    width: 300px;
+    background-image: linear-gradient(-45deg, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff 75%, #000 75%, #000);
+    background-size: 16px 16px; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.topCon-img {
+  width: 100%; }
+
+.mobile {
+  display: none; }
+
+.footer {
+  background: white; }
+
+@media (max-width: 800px) {
+  body {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    line-height: 1.6;
+    min-height: 565px;
+    height: 100%; }
+  .heading {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 15px 0 15px;
+    padding-bottom: 8px;
+    position: relative; }
+  .section-main {
+    font-size: 1.6rem;
+    border-bottom: 1px solid gray;
+    padding: 105px 30px 30px 30px;
+    margin-top: -75px; }
+  .mobile {
+    display: inline;
+    text-align: center; }
+  .mobile-hide {
+    display: none; }
+  .short {
+    display: none; }
+  .middle {
+    display: none; }
+  .middle-hide {
+    display: none; } }

@@ -8,31 +8,81 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/jquery.bxslider.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+      	$('#navToggle').click(function(){//headerに .openNav を付加・削除
+      		$('header').toggleClass('openNav');
+      	});
+      });
+    </script>
     <link rel="stylesheet" href="css/top.css">
   </head>
   <body>
-    <header class="header"><a class="header-link" href="#top"><img class="header-link-img" src="/img/black_bulb.png" alt="eeic"></a>
+    <header class="header"><a class="header-link" href="index.html#top"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a>
       <div class="header-top">
-        <p class="header-top-text">EEIC 五月祭展示</p>
-        <p class="header-top-text">近未来体験2018</p>
+        <div class="header-top-text">
+          <p class="header-top-text">EEIC2018 近未来体験</p>
+          <div class="header-top-stripe"></div>
+        </div>
       </div>
-      <div class="header-hamburger"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
+      <div class="header-hamburger" id="navToggle"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
       <nav class="header-global-nav">
         <ul class="header-global-nav-list">
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#contents">催し一覧</a></li>
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#access">アクセス</a></li>
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">イベント一覧</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#access">アクセス</a></li>
         </ul>
       </nav>
     </header>
+    <section class="under-header" id="top"></section>
     <main>
-      <section class="hero"></section>
-      <section class="section-main" id="contents"></section>
-      <section class="section-main" id="access"></section>
-      <section class="section-main" id="links"></section>
+      <section class="hero"><img class="top-img" src="img/toppic.jpg" alt="top"></section>
+      <section class="section-main" id="contents">
+        <h2 class="heading">イベント一覧</h2>
+        <div class="contents-heading-stripe"></div>
+        <div class="contents-wrapper"><a class="contents-box" href="works.html#programming">
+            <div class="contents-main"><img class="contents-img" src="img/programming.png" alt="プログラミング教室">
+              <p class="contents-title">プログラミング教室</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a><a class="contents-box" href="works.html#ework">
+            <div class="contents-main"><img class="contents-img" src="img/ework.png" alt="電子工作教室">
+              <p class="contents-title">電子工作教室</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a><a class="contents-box" href="works.html#vr">
+            <div class="contents-main"><img class="contents-img" src="img/vr.png" alt="vr体験">
+              <p class="contents-title">VR教室</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a><a class="contents-box" href="paper.html">
+            <div class="contents-main"><img class="contents-img" src="img/paper.png" alt="卒業論文発表">
+              <p class="contents-title">卒業論文発表</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a><a class="contents-box" href="bdm.html">
+            <div class="contents-main"><img class="contents-img" src="img/bdm.png" alt="学生展示">
+              <p class="contents-title">学生展示</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a><a class="contents-box" href="lab.html">
+            <div class="contents-main"><img class="contents-img" src="img/lab.png" alt="研究室展示">
+              <p class="contents-title">研究室展示</p>
+              <p class="contents-text">これは例文です。<br>キャッチーな説明文を期待します。<br>改行テスト</p>
+            </div></a></div>
+      </section>
+      <section class="section-main" id="links">
+        <h2 class="heading">リンク</h2>
+        <div class="heading-stripe"></div>
+        <div class="contents-wrapper"><a class="contents-box links" href="http://ut-mech.com" target="_blank"><img class="link-img" src="img/mech.jpg" alt="工学部機械工学科">
+            <h4>工学部</h4><br class="mini-mobile">機械工学科・機械情報工学科</a></div>
+      </section>
+      <section class="section-main" id="access">
+        <h2 class="heading">アクセス</h2>
+        <div class="access-heading-stripe"></div>
+        <div class="access-box">
+          <iframe class="access-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.486358958482!2d139.75965870080654!3d35.71425548567039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c31ccfe03e1%3A0x3d9424d7feac6c9f!2z44CSMTEzLTAwMzMg5p2x5Lqs6YO95paH5Lqs5Yy65pys6YO377yX5LiB55uu77yTIOadseS6rOWkp-WtpuacrOmDt-OCreODo-ODs-ODkeOCueW3peWtpumDqO-8kuWPt-mkqA!5e0!3m2!1sja!2sjp!4v1491390789035" allowfullscreen></iframe>
+          <p class="access-text"><b>会場</b><br>東京大学本郷キャンパス<br>工学部2・3・13号館<br><br><br>本郷三丁目駅から徒歩17分<br>東大前駅から徒歩8分<br>根津駅から徒歩7分</p>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2017」All rights reserved.</p>
+      <p class="footer-copyright">Copyright &copy; EEIC 五月祭展示「近未来体験2018」All rights reserved.</p>
     </footer>
   </body>
 </html>
