@@ -35,7 +35,7 @@ a {
     margin:auto;
     margin-top: 0;
     height: 8px;
-    width: 350px;
+    width: 220px;
     background-image: linear-gradient(-45deg,#fff 25%,#444 25%,#444 50%,#fff 50%,#fff 75%,#444 75%,#444);
     background-size: 16px 16px;
 
@@ -43,10 +43,20 @@ a {
       margin:auto;
       margin-top: 0;
       height: 8px;
+      width: 120px;
+      background-image: linear-gradient(-45deg,#fff 25%,#222 25%,#222 50%,#fff 50%,#fff 75%,#222 75%,#222);
+      background-size: 16px 16px;
+    }
+
+    &-device{
+      margin:auto;
+      margin-top: 0;
+      height: 8px;
       width: 350px;
       background-image: linear-gradient(-45deg,#fff 25%,#222 25%,#222 50%,#fff 50%,#fff 75%,#222 75%,#222);
       background-size: 16px 16px;
     }
+
     &-energy{
       margin:auto;
       margin-top: 0;
@@ -91,7 +101,7 @@ a {
   }
 
   &-text{
-    text-align: justify;
+    text-align: center;
 
     width: 95%;
 
@@ -201,7 +211,7 @@ a {
 }
 
 @media(max-width:800px){
-  .bdm{
+  .lab{
     &-img{
   		text-align: center;
   		margin: 30px;
@@ -210,13 +220,21 @@ a {
     }
 
     &-heading-stripe{
-      margin:auto;
-      margin-top: 0;
-      height: 8px;
-      width: 350px;
-      background-image: linear-gradient(-45deg,#fff 25%,#222 25%,#222 50%,#fff 50%,#fff 75%,#222 75%,#222);
-      background-size: 16px 16px;
+      margin-top: -15px;
+      width: 200px;
+      &-information{
+        margin-top: -15px;
+        width: 100px;
     }
+    &-device{
+      margin-top: -15px;
+      width: 200px;
+    }
+    &-energy{
+      margin-top: -15px;
+      width: 250px;
+    }
+  }
 
     &-wrapper{
       display: -webkit-flex;
@@ -244,7 +262,6 @@ a {
 
     &-text{
       width: 350px;
-      margin: auto;
       margin-top: 15px;
 
     }
@@ -264,6 +281,10 @@ a {
         background-size: 8px 8px;
       }
     }
+
+    &-subtitle{
+      font-size: 2.0rem;
+    }
 }
 }
 
@@ -280,4 +301,8 @@ a {
 #energy{
   background-color: #444;
   color: white;
+}
+
+.Baba{
+  transform: rotate(90);
 }

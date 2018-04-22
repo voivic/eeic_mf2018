@@ -101,6 +101,10 @@ a {
 
 @media(max-width:800px){
 	.contents{
+		&-heading-stripe{
+			margin-top: -15px;
+			width: 225px;
+		}
 		&-wrapper{
 			display: -webkit-flex;
       display: flex;
@@ -188,7 +192,7 @@ h3{
 			margin: auto;
 			margin-top: 5px;
 			height: 8px;
-			width: 300px;
+			width: 200px;
 			background-image: linear-gradient(-45deg,#fff 25%,#444 25%,#444 50%,#fff 50%,#fff 75%,#444 75%,#444);
 			background-size: 16px 16px;
 
@@ -228,6 +232,10 @@ h3{
 
 @media(max-width:800px){
 	.access{
+		&-heading-stripe{
+			margin-top: -15px;
+			width: 140px;
+		}
 		&-box{
 			display: -webkit-flex;
 			display: flex;

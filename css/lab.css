@@ -28,10 +28,17 @@ a {
   margin: auto;
   margin-top: 0;
   height: 8px;
-  width: 350px;
+  width: 220px;
   background-image: linear-gradient(-45deg, #fff 25%, #444 25%, #444 50%, #fff 50%, #fff 75%, #444 75%, #444);
   background-size: 16px 16px; }
   .lab-heading-stripe-information {
+    margin: auto;
+    margin-top: 0;
+    height: 8px;
+    width: 120px;
+    background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
+    background-size: 16px 16px; }
+  .lab-heading-stripe-device {
     margin: auto;
     margin-top: 0;
     height: 8px;
@@ -74,7 +81,7 @@ a {
   margin-bottom: 10px; }
 
 .lab-text {
-  text-align: justify;
+  text-align: center;
   width: 95%;
   flex-grow: 2;
   margin-bottom: 20px; }
@@ -155,19 +162,24 @@ a {
   flex-grow: 0; }
 
 @media (max-width: 800px) {
-  .bdm-img {
+  .lab-img {
     text-align: center;
     margin: 30px;
     max-height: 400px;
     max-width: 60%; }
-  .bdm-heading-stripe {
-    margin: auto;
-    margin-top: 0;
-    height: 8px;
-    width: 350px;
-    background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
-    background-size: 16px 16px; }
-  .bdm-wrapper {
+  .lab-heading-stripe {
+    margin-top: -15px;
+    width: 200px; }
+    .lab-heading-stripe-information {
+      margin-top: -15px;
+      width: 100px; }
+    .lab-heading-stripe-device {
+      margin-top: -15px;
+      width: 200px; }
+    .lab-heading-stripe-energy {
+      margin-top: -15px;
+      width: 250px; }
+  .lab-wrapper {
     display: -webkit-flex;
     display: flex;
     width: 100%;
@@ -178,27 +190,28 @@ a {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around; }
-  .bdm-box {
+  .lab-box {
     width: 100%;
     min-width: auto;
     margin-bottom: 80px; }
-  .bdm-img {
+  .lab-img {
     width: 400px; }
-  .bdm-text {
+  .lab-text {
     width: 350px;
-    margin: auto;
     margin-top: 15px; }
-  .bdm-title {
+  .lab-title {
     font-size: 2.2rem;
     letter-spacing: 3px;
     margin-top: 15px; }
-    .bdm-title-stripe {
+    .lab-title-stripe {
       margin: auto;
       margin-top: 0;
       height: 4px;
       width: 140px;
       background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
-      background-size: 8px 8px; } }
+      background-size: 8px 8px; }
+  .lab-subtitle {
+    font-size: 2.0rem; } }
 
 #Information {
   background-color: #222;
@@ -211,3 +224,6 @@ a {
 #energy {
   background-color: #444;
   color: white; }
+
+.Baba {
+  transform: rotate(90); }

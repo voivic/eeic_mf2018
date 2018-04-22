@@ -73,7 +73,7 @@ a {
   }
 
   &-text{
-    text-align: justify;
+    text-align: center;
 
     width: 95%;
 
@@ -132,18 +132,15 @@ a {
     }
 
     &-heading-stripe{
-      margin:auto;
-      margin-top: 0;
-      height: 8px;
-      width: 350px;
-      background-image: linear-gradient(-45deg,#fff 25%,#222 25%,#222 50%,#fff 50%,#fff 75%,#222 75%,#222);
-      background-size: 16px 16px;
+      margin-top: -15px;
+      width: 250px;
     }
 
     &-wrapper{
       display: -webkit-flex;
       display: flex;
       width: 100%;
+			margin:auto;
       margin-top: 40px;
       margin-bottom: 30px;
 
@@ -166,7 +163,6 @@ a {
 
     &-text{
       width: 350px;
-      margin: auto;
       margin-top: 15px;
 
     }

@@ -59,7 +59,7 @@ a {
   margin-bottom: 10px; }
 
 .bdm-text {
-  text-align: justify;
+  text-align: center;
   width: 95%;
   flex-grow: 2;
   margin-bottom: 20px; }
@@ -99,16 +99,13 @@ a {
     max-height: 400px;
     max-width: 60%; }
   .bdm-heading-stripe {
-    margin: auto;
-    margin-top: 0;
-    height: 8px;
-    width: 350px;
-    background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
-    background-size: 16px 16px; }
+    margin-top: -15px;
+    width: 250px; }
   .bdm-wrapper {
     display: -webkit-flex;
     display: flex;
     width: 100%;
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
     -webkit-flex-direction: column;
@@ -124,7 +121,6 @@ a {
     width: 400px; }
   .bdm-text {
     width: 350px;
-    margin: auto;
     margin-top: 15px; }
   .bdm-title {
     font-size: 2.2rem;

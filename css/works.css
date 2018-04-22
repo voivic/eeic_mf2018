@@ -45,7 +45,7 @@ a {
   margin: auto;
   margin-top: 0;
   height: 8px;
-  width: 350px;
+  width: 250px;
   background-image: linear-gradient(-45deg, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff 75%, #000 75%, #000);
   background-size: 16px 16px; }
 
@@ -96,13 +96,22 @@ a {
   margin: auto;
   margin-top: 0;
   height: 8px;
-  width: 350px;
+  width: 180px;
   background-image: linear-gradient(-45deg, #fff 25%, #444 25%, #444 50%, #fff 50%, #fff 75%, #444 75%, #444);
   background-size: 16px 16px; }
 
 @media (max-width: 800px) {
+  .programming-heading-stripe {
+    width: 300px;
+    margin-top: -15px; }
+  .ework-heading-stripe {
+    width: 200px;
+    margin-top: -15px; }
   .vr-img {
     max-width: 100%;
     width: 100%;
     margin: auto;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .vr-heading-stripe {
+    width: 140px;
+    margin-top: -15px; } }
