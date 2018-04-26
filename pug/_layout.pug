@@ -15,7 +15,13 @@ html(lang="ja")
 				$('#navToggle').click(function(){//headerに .openNav を付加・削除
 					$('header').toggleClass('openNav');
 				});
-			});
+				$('main, .header-global-nav-list').click(function(){
+				if($('header').hasClass('openNav')){
+					$('header').removeClass('openNav');
+				}
+				})
+			})
+			
 		block linkfiles
 
 
