@@ -22,12 +22,53 @@ a {
 }
 
 .programming{
-  &-img{
-		text-align: center;
-		margin: 30px;
-		max-height: 400px;
-		max-width: 60%;
-  }
+	&-text{
+		width:60%;
+		margin-left:auto;
+		margin-right:auto;
+		clear: both;
+	}
+
+	&-wrapper{
+		display: -webkit-flex;
+		display: flex;
+		width: 100%;
+		margin-bottom: 0;
+
+		-webkit-flex-direction: row; /* Safari */
+		flex-direction:         row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	&-box{
+		width: 27%;
+		min-width: 330px;
+
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column; /* Safari */
+		flex-direction:         column;
+
+		align-items: center;
+
+		margin-top: 30px;
+
+	}
+
+	&-main{
+		width: 350px;
+		height: 350px;
+		position: relative;
+	}
+
+
+	&-img{
+		width: 400px;
+		max-height: 335px;
+		margin: auto;
+		padding: 15px;
+	}
 
   &-heading-stripe{
     margin:auto;
@@ -47,6 +88,10 @@ a {
 			width: 100%;
 			margin: auto;
 			margin-top: 30px;
+		}
+
+		&-text{
+			width:100%;
 		}
 	}
 }
@@ -117,12 +162,53 @@ a {
 }
 
 .vr{
-  &-img{
-		text-align: center;
-		margin: 30px;
-		max-height: 400px;
-		max-width: 50%;
-  }
+
+	&-wrapper{
+		display: -webkit-flex;
+		display: flex;
+		width: 100%;
+		margin-bottom: 0;
+
+		-webkit-flex-direction: row; /* Safari */
+		flex-direction:         row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	&-box{
+		width: 27%;
+		min-width: 330px;
+
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column; /* Safari */
+		flex-direction:         column;
+
+		align-items: center;
+
+		margin-top: 30px;
+
+	}
+
+	&-main{
+		width: 350px;
+		height: 350px;
+		position: relative;
+	}
+
+
+	&-img{
+		width: 335px;
+		max-height: 335px;
+		margin: auto;
+		padding: 15px;
+	}
+
+	&-text{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
   &-heading-stripe{
     margin:auto;
@@ -156,10 +242,13 @@ a {
 		width: 100%;
 		margin: auto;
 		margin-top: 30px;
-	}
-	&-heading-stripe{
-		width: 140px;
-		margin-top: -15px;
-	}
+		}
+		&-text{
+			width:100%;
+		}
+		&-heading-stripe{
+			width: 140px;
+			margin-top: -15px;
+		}
 	}
 }

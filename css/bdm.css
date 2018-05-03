@@ -59,7 +59,7 @@ a {
   margin-bottom: 10px; }
 
 .bdm-text {
-  text-align: center;
+  text-align: left;
   width: 95%;
   flex-grow: 2;
   margin-bottom: 20px; }

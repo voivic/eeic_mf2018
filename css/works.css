@@ -16,11 +16,44 @@ a {
     font-size: 1.6rem;
     padding: 105px 30px 30px 30px; } }
 
+.programming-text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both; }
+
+.programming-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  -webkit-flex-direction: row;
+  /* Safari */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.programming-box {
+  width: 27%;
+  min-width: 330px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  /* Safari */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; }
+
+.programming-main {
+  width: 350px;
+  height: 350px;
+  position: relative; }
+
 .programming-img {
-  text-align: center;
-  margin: 30px;
-  max-height: 400px;
-  max-width: 60%; }
+  width: 400px;
+  max-height: 335px;
+  margin: auto;
+  padding: 15px; }
 
 .programming-heading-stripe {
   margin: auto;
@@ -35,7 +68,9 @@ a {
     max-width: 100%;
     width: 100%;
     margin: auto;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .programming-text {
+    width: 100%; } }
 
 #ework {
   color: black;
@@ -86,11 +121,43 @@ a {
   color: white;
   background-color: #444; }
 
+.vr-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  -webkit-flex-direction: row;
+  /* Safari */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.vr-box {
+  width: 27%;
+  min-width: 330px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  /* Safari */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; }
+
+.vr-main {
+  width: 350px;
+  height: 350px;
+  position: relative; }
+
 .vr-img {
-  text-align: center;
-  margin: 30px;
-  max-height: 400px;
-  max-width: 50%; }
+  width: 335px;
+  max-height: 335px;
+  margin: auto;
+  padding: 15px; }
+
+.vr-text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .vr-heading-stripe {
   margin: auto;
@@ -112,6 +179,8 @@ a {
     width: 100%;
     margin: auto;
     margin-top: 30px; }
+  .vr-text {
+    width: 100%; }
   .vr-heading-stripe {
     width: 140px;
     margin-top: -15px; } }

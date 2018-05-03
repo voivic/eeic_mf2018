@@ -23,8 +23,22 @@ a {
 	.section-paper{
 			font-size: 1.6rem;
 			padding: 105px 0 30px 0;
-			margin-top: -75px;
-		}
+      margin-top: -75px;
+      overflow-x:scroll;
+    }
+  .paper-table{
+    overflow:auto;
+    white-space:nowrap;
+  }
+  .paper-table::-webkit-scrollbar{
+    height:5px;
+  }
+  .paper-table::-webkit-scrollbar-track{
+    background:#F1F1F1;
+  }
+  .paper-table::-webkit-scrollbar-thumb{
+    background: #BCBCBC;
+  }
 }
 
 .paper{
@@ -34,7 +48,12 @@ a {
 		max-height: 400px;
 		max-width: 60%;
   }
-
+  &-maintext{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+  }
   &-heading-stripe{
     margin:auto;
     margin-top: 0;
@@ -49,7 +68,6 @@ a {
     letter-spacing: 3px;
     margin-top: 30px;
     margin:auto;
-
     flex-grow: 0;
 
 
@@ -93,7 +111,7 @@ a {
     &-body{
       padding: 8px;
       border: 1px solid #fff;
-      text-align: center;
+      text-align: left;
       vertical-align:  middle;
       max-width: 50%;
     }
