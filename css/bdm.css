@@ -23,6 +23,10 @@ a {
   max-height: 400px;
   max-width: 60%; }
 
+.bdm-maintext {
+  margin: 0 auto;
+  width: 60%; }
+
 .bdm-heading-stripe {
   margin: auto;
   margin-top: 0;
