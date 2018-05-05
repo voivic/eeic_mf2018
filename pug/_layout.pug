@@ -21,6 +21,12 @@ html(lang="ja")
 				}
 				})
 			})
+
+			$(function(){
+				$('.lab-img').click(function(){
+					$(this).nextAll(".lab-text").toggleClass('lab-opentext');
+				})
+			})
 			
 		block linkfiles
 
