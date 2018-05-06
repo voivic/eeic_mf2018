@@ -3,7 +3,7 @@ a {
 
 #labIntro {
   color: white;
-  background-color: #444;
+  background-color: #222;
   height: auto; }
 
 .section-lab {
@@ -65,7 +65,7 @@ a {
   justify-content: space-around; }
 
 .lab-box {
-  width: 27%;
+  width: 45%;
   min-width: 330px;
   display: -webkit-flex;
   display: flex;
@@ -76,7 +76,10 @@ a {
   margin-top: 30px; }
 
 .lab-img {
-  width: 400px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   margin: auto;
   margin-bottom: 10px; }
 
@@ -101,7 +104,7 @@ a {
     margin: auto;
     margin-top: 4px;
     height: 4px;
-    width: 180px;
+    width: 300px;
     background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
     background-size: 16px 16px;
     margin-bottom: 30px; }
@@ -109,7 +112,7 @@ a {
       margin: auto;
       margin-top: 4px;
       height: 4px;
-      width: 225px;
+      width: 300px;
       background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
       background-size: 16px 16px;
       margin-bottom: 30px; }
@@ -117,16 +120,16 @@ a {
     margin: auto;
     margin-top: 4px;
     height: 4px;
-    width: 180px;
-    background-image: linear-gradient(-45deg, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff 75%, #000 75%, #000);
+    width: 300px;
+    background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
     background-size: 16px 16px;
     margin-bottom: 30px; }
     .lab-title-stripe-device-long {
       margin: auto;
       margin-top: 4px;
       height: 4px;
-      width: 225px;
-      background-image: linear-gradient(-45deg, #fff 25%, #000 25%, #000 50%, #fff 50%, #fff 75%, #000 75%, #000);
+      width: 300px;
+      background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
       background-size: 16px 16px;
       margin-bottom: 30px; }
   .lab-title-stripe-energy {
@@ -134,7 +137,7 @@ a {
     margin-top: 4px;
     height: 4px;
     width: 180px;
-    background-image: linear-gradient(-45deg, #fff 25%, #444 25%, #444 50%, #fff 50%, #fff 75%, #444 75%, #444);
+    background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
     background-size: 16px 16px;
     margin-bottom: 30px; }
     .lab-title-stripe-energy-long {
@@ -142,21 +145,21 @@ a {
       margin-top: 4px;
       height: 4px;
       width: 225px;
-      background-image: linear-gradient(-45deg, #fff 25%, #444 25%, #444 50%, #fff 50%, #fff 75%, #444 75%, #444);
+      background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
       background-size: 16px 16px;
       margin-bottom: 30px; }
   .lab-title-stripe-long {
     margin: auto;
     margin-top: 4px;
     height: 4px;
-    width: 330px;
+    width: 450px;
     background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
     background-size: 8px 8px; }
   .lab-title-stripe-mid {
     margin: auto;
     margin-top: 4px;
     height: 4px;
-    width: 225px;
+    width: 450px;
     background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
     background-size: 8px 8px; }
 
