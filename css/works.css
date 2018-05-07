@@ -94,8 +94,8 @@ a {
   justify-content: space-around; }
 
 .ework-box {
-  width: 45%;
-  min-width: 330px;
+  width: 30%;
+  min-width: 350px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;

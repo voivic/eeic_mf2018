@@ -8,7 +8,8 @@ a {
 
 /*top*/
 #hero {
-  background-color: #222; }
+  background-color: #222;
+  width: 100%; }
 
 .top-img {
   width: 100%; }
@@ -16,7 +17,8 @@ a {
 /*contents*/
 #contents {
   color: white;
-  background-color: #222; }
+  background-color: #222;
+  width: 100%; }
 
 .contents-heading-stripe {
   margin: auto;
@@ -38,8 +40,8 @@ a {
   justify-content: space-around; }
 
 .contents-box {
-  width: 27%;
-  min-width: 330px;
+  width: 33%;
+  min-width: 400px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -49,16 +51,15 @@ a {
   margin-top: 30px; }
 
 .contents-main {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   position: relative; }
 
 .contents-img {
-  width: 335px;
-  max-height: 335px;
+  width: 400px;
+  max-height: 400px;
   margin: auto;
-  padding: 15px;
-  background-color: gray; }
+  padding: 0px; }
 
 .contents-title {
   position: absolute;
@@ -84,6 +85,7 @@ a {
     display: -webkit-flex;
     display: flex;
     width: 100%;
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
     -webkit-flex-direction: column;
@@ -94,9 +96,16 @@ a {
   .contents-box {
     width: 100%;
     min-width: auto;
+    margin: auto;
+    text-align: center;
     margin-bottom: 80px; }
     .contents-box:last-of-type {
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+  .contents-main {
+    width: 100%; }
+  .contents-img {
+    max-width: 100%;
+    margin: auto; } }
 
 h3 {
   font-size: 2.2rem;
@@ -105,7 +114,8 @@ h3 {
 
 /*link*/
 #links {
-  background-color: white; }
+  background-color: white;
+  width: 100%; }
 
 .links {
   width: 50%;
@@ -134,7 +144,8 @@ h3 {
 /*access*/
 #access {
   color: white;
-  background-color: #444; }
+  background-color: #444;
+  width: 100%; }
 
 .access-heading-stripe {
   margin: auto;

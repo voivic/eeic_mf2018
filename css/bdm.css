@@ -19,9 +19,7 @@ a {
 
 .bdm-img {
   text-align: center;
-  margin: 30px;
-  max-height: 400px;
-  max-width: 60%; }
+  margin: 10px; }
 
 .bdm-maintext {
   margin: 0 auto;
@@ -47,8 +45,8 @@ a {
   justify-content: space-around; }
 
 .bdm-box {
-  width: 45%;
-  min-width: 330px;
+  width: 30%;
+  min-width: 450px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -99,9 +97,8 @@ a {
 @media (max-width: 800px) {
   .bdm-img {
     text-align: center;
-    margin: 30px;
-    max-height: 400px;
-    max-width: 60%; }
+    margin: 10px;
+    max-width: 100%; }
   .bdm-heading-stripe {
     margin-top: -15px;
     width: 250px; }

@@ -25,9 +25,7 @@ a {
 .bdm{
   &-img{
 		text-align: center;
-		margin: 30px;
-		max-height: 400px;
-		max-width: 60%;
+		margin: 10px;
   }
 
   &-maintext{
@@ -56,8 +54,8 @@ a {
   }
 
   &-box{
-    width: 45%;
-    min-width: 330px;
+    width: 30%;
+    min-width: 450px;
 
     display: -webkit-flex;
     display: flex;
@@ -72,7 +70,7 @@ a {
 
   &-img{
     width: 100%;
-    margin: auto;
+		margin: auto;
     margin-bottom: 10px;
   }
 
@@ -127,9 +125,8 @@ a {
   .bdm{
     &-img{
   		text-align: center;
-  		margin: 30px;
-  		max-height: 400px;
-  		max-width: 60%;
+  		margin: 10px;
+  		max-width: 100%;
     }
 
     &-heading-stripe{

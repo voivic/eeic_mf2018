@@ -20,9 +20,7 @@ a {
 
 .lab-img {
   text-align: center;
-  margin: 30px;
-  max-height: 400px;
-  max-width: 60%; }
+  margin: 10px; }
 
 .lab-heading-stripe {
   margin: auto;
@@ -65,8 +63,8 @@ a {
   justify-content: space-around; }
 
 .lab-box {
-  width: 45%;
-  min-width: 330px;
+  width: 30%;
+  min-width: 350px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -173,9 +171,9 @@ a {
 @media (max-width: 800px) {
   .lab-img {
     text-align: center;
-    margin: 30px;
+    margin: 10px;
     max-height: 400px;
-    max-width: 60%; }
+    max-width: 100%; }
   .lab-heading-stripe {
     margin-top: -15px;
     width: 200px; }

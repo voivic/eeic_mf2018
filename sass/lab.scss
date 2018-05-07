@@ -26,9 +26,7 @@ a {
 .lab{
   &-img{
 		text-align: center;
-		margin: 30px;
-		max-height: 400px;
-		max-width: 60%;
+		margin:10px;
   }
 
   &-heading-stripe{
@@ -80,8 +78,8 @@ a {
   }
 
   &-box{
-    width: 45%;
-    min-width: 330px;
+    width: 30%;
+    min-width: 350px;
 
     display: -webkit-flex;
     display: flex;
@@ -219,9 +217,9 @@ a {
   .lab{
     &-img{
   		text-align: center;
-  		margin: 30px;
+  		margin: 10px;
   		max-height: 400px;
-  		max-width: 60%;
+  		max-width: 100%;
     }
 
     &-heading-stripe{
