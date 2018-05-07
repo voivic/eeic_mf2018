@@ -61,7 +61,14 @@ a {
   width: 400px;
   max-height: 400px;
   margin: auto;
-  padding: 0px; }
+  padding: 0px;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all  0.1s ease; }
+
+.contents-img:hover {
+  opacity: 0.6; }
 
 .contents-title {
   position: absolute;
