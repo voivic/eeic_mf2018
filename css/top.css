@@ -3,8 +3,8 @@ a {
 
 @media (max-width: 800px) {
   .section-main {
-    padding: 80px 30px 50px 30px;
-    margin-top: -50px; } }
+    padding: 80px 30px 50px 950px;
+    margin-top: 0px; } }
 
 /*top*/
 #hero {
@@ -102,7 +102,7 @@ a {
     .contents-box:last-of-type {
       margin-bottom: 0; }
   .contents-main {
-    width: 100%; }
+    max-width: 100%; }
   .contents-img {
     max-width: 100%;
     margin: auto; } }
@@ -115,7 +115,8 @@ h3 {
 /*link*/
 #links {
   background-color: white;
-  width: 100%; }
+  width: 100%;
+  color: black; }
 
 .links {
   width: 50%;

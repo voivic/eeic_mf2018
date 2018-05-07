@@ -28,17 +28,41 @@ html(lang="ja")
 				})
 			})
 			
+		script.
+				$(function() {
+				// スクロールのオフセット値
+				var offsetY = -20;
+				// スクロールにかかる時間
+				var time = 500;
+				// ページ内リンクのみを取得
+				$('a[href^="#"]').click(function() {
+				// 移動先となる要素を取得
+				var target = $(this.hash);
+				if (!target.length) return ;
+					// 移動先となる値
+					var targetY = target.offset().top+offsetY;
+					// スクロールアニメーション
+					$('html,body').animate({scrollTop: targetY}, time, 'swing')
+					// ハッシュ書き換えとく
+					window.history.pushState(null, null, this.hash);
+					// デフォルトの処理はキャンセル
+					return false;
+					});
+					});
+			
 		block linkfiles
 
 
 
 	body
+		- var headerlink="index.html"
+		block headervar 
 		header.header
 			a.header-link(href="index.html")
 				img.header-link-img(src="/img/white_bulb.png" alt="eeic")
-			.header-top
+			a(href="index.html").header-top
 				.header-top-text
-					p.header-top-text EEIC2018 近未来体験
+					p.header-top-text EEIC 近未来体験2018
 					div.header-top-stripe
 			.header-hamburger#navToggle
 				span.header-hamburger-bar
@@ -47,11 +71,12 @@ html(lang="ja")
 			nav.header-global-nav
 				ul.header-global-nav-list
 					li.header-global-nav-list-item.no-wrap
-							a.nav-content(href="index.html#contents") イベント一覧
+						a.nav-content(href=headerlink+"#contents") 企画一覧
 					li.header-global-nav-list-item.no-wrap
-							a.nav-content(href="index.html#links") リンク
+						a.nav-content(href=headerlink+"#access") アクセス
 					li.header-global-nav-list-item.no-wrap
-							a.nav-content(href="index.html#access") アクセス
+						a.nav-content(href=headerlink+"#links") リンク
+					
 		section.under-header#top
 
 		main

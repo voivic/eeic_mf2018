@@ -5,12 +5,15 @@ block title
 
 block linkfiles
 	link(rel="stylesheet" href="css/top.css")
+		
+block headervar
+	- headerlink=""
 
 block contents
 	section.hero
-		img.top-img(src="img/toppic.jpg" alt="top")
+		img.top-img(src="img/topCon.jpg" alt="top")
 	section.section-main#contents
-		h2.heading イベント一覧
+		h2.heading 企画一覧
 		div.contents-heading-stripe
 		div.contents-wrapper
 			a.contents-box(href="works.html#programming")
@@ -76,17 +79,6 @@ block contents
 						|キャッチーな説明文を期待します。
 						br
 						|改行テスト
-	section.section-main#links
-		h2.heading リンク
-		div.heading-stripe
-		div.contents-wrapper
-			a.contents-box.links(href="http://ut-mech.com" target="_blank")
-				img.link-img(src="img/mech.jpg" alt="工学部機械工学科")
-				h4 工学部
-					br.mobile
-					|機械工学科・
-					br.mobile
-					|機械情報工学科
 
 	section.section-main#access
 		h2.heading アクセス
@@ -110,3 +102,15 @@ block contents
 				|東大前駅から徒歩8分
 				br
 				|根津駅から徒歩7分
+
+	section.section-main#links
+		h2.heading リンク
+		div.heading-stripe
+		div.contents-wrapper
+				a.contents-box.links(href="http://ut-mech.com" target="_blank")
+					img.link-img(src="img/mech.jpg" alt="工学部機械工学科")
+					h4 工学部
+						br.mobile
+						|機械工学科・
+						br.mobile
+						|機械情報工学科

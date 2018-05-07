@@ -29,22 +29,43 @@
       })
       
     </script>
+    <script>
+      $(function() {
+      // スクロールのオフセット値
+      var offsetY = -20;
+      // スクロールにかかる時間
+      var time = 500;
+      // ページ内リンクのみを取得
+      $('a[href^="#"]').click(function() {
+      // 移動先となる要素を取得
+      var target = $(this.hash);
+      if (!target.length) return ;
+      	// 移動先となる値
+      	var targetY = target.offset().top+offsetY;
+      	// スクロールアニメーション
+      	$('html,body').animate({scrollTop: targetY}, time, 'swing')
+      	// ハッシュ書き換えとく
+      	window.history.pushState(null, null, this.hash);
+      	// デフォルトの処理はキャンセル
+      	return false;
+      	});
+      	});
+      
+    </script>
     <link rel="stylesheet" href="css/lab.css">
   </head>
   <body>
-    <header class="header"><a class="header-link" href="index.html"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a>
-      <div class="header-top">
+    <header class="header"><a class="header-link" href="index.html"><img class="header-link-img" src="/img/white_bulb.png" alt="eeic"></a><a class="header-top" href="index.html">
         <div class="header-top-text">
-          <p class="header-top-text">EEIC2018 近未来体験</p>
+          <p class="header-top-text">EEIC 近未来体験2018</p>
           <div class="header-top-stripe"></div>
-        </div>
-      </div>
+        </div></a>
       <div class="header-hamburger" id="navToggle"><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span><span class="header-hamburger-bar"></span></div>
       <nav class="header-global-nav">
         <ul class="header-global-nav-list">
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">イベント一覧</a></li>
-          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#contents">企画一覧</a></li>
           <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#access">アクセス</a></li>
+          <li class="header-global-nav-list-item no-wrap"><a class="nav-content" href="index.html#links">リンク</a></li>
         </ul>
       </nav>
     </header>

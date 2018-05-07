@@ -5,8 +5,8 @@ a {
 
 @media(max-width: 800px){
 	.section-main{
-		padding: 80px 30px 50px 30px;
-    margin-top: -50px;
+		padding: 80px 30px 50px 950px;
+    margin-top: 0px;
 	}
 }
 
@@ -135,7 +135,7 @@ a {
 			}
 		}
 		&-main{
-			width:100%;
+			max-width:100%;
 		}
 
 		&-img{
@@ -157,6 +157,7 @@ h3{
 #links{
 	background-color: white;
 	width:100%;
+	color: black;
 }
 
 .links{
