@@ -23,7 +23,8 @@ a {
 
 .bdm-maintext {
   margin: 0 auto;
-  width: 60%; }
+  width: 80%;
+  text-align: left; }
 
 .bdm-heading-stripe {
   margin: auto;
