@@ -3,7 +3,9 @@ a {
 
 @media (max-width: 800px) {
   .section-main {
-    padding: 80px 30px 50px 950px;
+    /*
+		padding: 80px 30px 50px 950px;
+		*/
     margin-top: 0px; } }
 
 /*top*/
