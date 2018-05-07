@@ -27,6 +27,7 @@ a {
 		margin-left:auto;
 		margin-right:auto;
 		clear: both;
+		text-align:left;	
 	}
 
 	&-wrapper{
@@ -122,6 +123,14 @@ a {
 		justify-content: space-around;
 	}
 
+	&-text{
+		width:60%;
+		margin-left:auto;
+		margin-right:auto;
+		clear: both;
+		text-align:left;	
+	}
+
 	&-box{
 		width: 45%;
 		min-width: 350px;
@@ -215,9 +224,11 @@ a {
 	}
 
 	&-text{
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
+		width:60%;
+		margin-left:auto;
+		margin-right:auto;
+		clear: both;
+		text-align:left;	
 	}
 
   &-heading-stripe{

@@ -20,7 +20,8 @@ a {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  clear: both; }
+  clear: both;
+  text-align: left; }
 
 .programming-wrapper {
   display: -webkit-flex;
@@ -93,6 +94,13 @@ a {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.ework-text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: left; }
+
 .ework-box {
   width: 45%;
   min-width: 350px;
@@ -163,7 +171,9 @@ a {
 .vr-text {
   width: 60%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  clear: both;
+  text-align: left; }
 
 .vr-heading-stripe {
   margin: auto;
