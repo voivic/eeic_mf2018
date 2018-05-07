@@ -63,8 +63,7 @@ a {
   justify-content: space-around; }
 
 .lab-box {
-  width: 30%;
-  min-width: 350px;
+  width: 45%;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -72,6 +71,17 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 30px; }
+
+@media (min-width: 1000px) {
+  .lab-box {
+    width: 30%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; } }
 
 .lab-img {
   width: auto;
@@ -168,7 +178,7 @@ a {
   margin: auto;
   flex-grow: 0; }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .lab-img {
     text-align: center;
     margin: 10px;

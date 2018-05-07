@@ -45,8 +45,7 @@ a {
   justify-content: space-around; }
 
 .bdm-box {
-  width: 30%;
-  min-width: 450px;
+  width: 45%;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -54,6 +53,17 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 30px; }
+
+@media (min-width: 1000px) {
+  .bdm-box {
+    width: 30%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    /* Safari */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px; } }
 
 .bdm-img {
   width: 95%;
@@ -94,7 +104,7 @@ a {
       background-image: linear-gradient(-45deg, #fff 25%, #222 25%, #222 50%, #fff 50%, #fff 75%, #222 75%, #222);
       background-size: 8px 8px; }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .bdm-img {
     text-align: center;
     margin: 10px;
