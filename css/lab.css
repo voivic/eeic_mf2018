@@ -14,20 +14,13 @@ a {
 
 @media (max-width: 800px) {
   .section-lab {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: 105px 30px 30px 30px;
     margin-top: -10px; } }
 
 .lab-img {
   text-align: center;
   margin: 10px; }
-
-.lab-maintext {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  clear: both;
-  text-align: left; }
 
 .lab-heading-stripe {
   margin: auto;
@@ -79,6 +72,13 @@ a {
   align-items: center;
   margin-top: 30px; }
 
+.lab-maintext {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: left; }
+
 @media (min-width: 1000px) {
   .lab-box {
     width: 30%;
@@ -111,7 +111,7 @@ a {
   z-index: 0; }
 
 .lab-title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   letter-spacing: 3px;
   margin-top: 30px;
   flex-grow: 0; }
