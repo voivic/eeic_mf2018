@@ -73,7 +73,7 @@ a {
   margin-top: 30px; }
 
 .lab-maintext {
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   clear: both;
@@ -191,6 +191,8 @@ a {
     margin: 10px;
     max-height: 400px;
     max-width: 100%; }
+  .lab-maintext {
+    width: 100%; }
   .lab-heading-stripe {
     margin-top: -15px;
     width: 200px; }
@@ -224,7 +226,7 @@ a {
     width: 350px;
     margin-top: 15px; }
   .lab-title {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     margin-top: 15px; }
     .lab-title-stripe {

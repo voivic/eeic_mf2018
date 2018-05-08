@@ -43,7 +43,7 @@ a {
 	}
 
 	&-box{
-		width: 45%;
+		width: 30%;
 		min-width: 330px;
 
 		display: -webkit-flex;
@@ -64,9 +64,8 @@ a {
 
 
 	&-img{
-		width: 100%;
+		width: 400px;
 		margin: auto;
-		padding: 15px;
 	}
 
   &-heading-stripe{
@@ -132,7 +131,7 @@ a {
 	}
 
 	&-box{
-		width: 45%;
+		width: 30%;
 		min-width: 350px;
 
 		display: -webkit-flex;
@@ -145,7 +144,7 @@ a {
 		margin-top: 30px;
 
 	}
-@media(min-width: 1000px){
+@media(max-width: 800px){
 	&-box{
 		width: 30%;
 		min-width: 350px;
@@ -159,6 +158,9 @@ a {
 
 		margin-top: 30px;
 
+	}
+	&-text{
+		width:100%;
 	}
 }
 
@@ -197,7 +199,7 @@ a {
 	}
 
 	&-box{
-		width: 45%;
+		width: 30%;
 		min-width: 330px;
 
 		display: -webkit-flex;
@@ -235,7 +237,7 @@ a {
     margin:auto;
     margin-top: 0;
     height: 8px;
-    width: 180px;
+    width: 330px;
     background-image: linear-gradient(-45deg,#fff 25%,#444 25%,#444 50%,#fff 50%,#fff 75%,#444 75%,#444);
     background-size: 16px 16px;
   }

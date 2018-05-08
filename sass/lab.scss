@@ -91,7 +91,7 @@ a {
 
   }
   &-maintext{
-		width:60%;
+		width:80%;
 		margin-left:auto;
 		margin-right:auto;
 		clear: both;
@@ -243,6 +243,9 @@ a {
   		max-height: 400px;
   		max-width: 100%;
     }
+    &-maintext{
+      width:100%;
+    }
 
     &-heading-stripe{
       margin-top: -15px;
@@ -292,7 +295,7 @@ a {
     }
 
     &-title{
-      font-size: 2.2rem;
+      font-size: 1.5rem;
       letter-spacing: 3px;
       margin-top: 15px;
 
