@@ -204,7 +204,8 @@ h3 {
 .links {
   width: 50%;
   color: black;
-  margin: auto; }
+  margin: auto;
+  margin-top: 50px; }
   .links h4 {
     font-size: 2rem; }
   .links p {
@@ -218,6 +219,9 @@ h3 {
   display: none; }
 
 @media (max-width: 800px) {
+  .link {
+    margin-top: auto;
+    margin-bottom: 30px; }
   h4 {
     font-size: 1.5rem; } }
 
